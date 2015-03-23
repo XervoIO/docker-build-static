@@ -1,0 +1,5 @@
+# Simply copy the input to the output.
+# INPUT_DIR and OUTPUT_DIR are set by the Modulus build system.
+
+echo "Copying files to output directory."
+cp -R $INPUT_DIR/* $OUTPUT_DIR
