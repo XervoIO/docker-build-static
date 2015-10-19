@@ -1,4 +1,4 @@
-FROM onmodulus/image-build-base:0.0.1
+FROM onmodulus/build-base
 
 ADD . /opt/modulus
 ENV PATH=/opt/modulus/bin:$PATH
